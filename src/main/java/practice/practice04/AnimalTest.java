@@ -9,7 +9,9 @@ public class AnimalTest {
 		//操作
 		dog.showInfo();
 		dog.cry();
+
 		System.out.println("--------------------");
+
 		sparrow.showInfo();
 		sparrow.cry();
 	}
