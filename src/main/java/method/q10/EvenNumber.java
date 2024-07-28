@@ -13,8 +13,9 @@ public class EvenNumber {
 
 	public static int getEvenNumbers(int array[]) {
 		int count = 0;
-		for (int i = 0; i < array.length; i++) {
-			if ((array[i] % 2) == 0) {
+		//配列内の偶数個数検査
+		for (int arrayNum : array) {
+			if ((arrayNum % 2) == 0) {
 				count++;
 			}
 		}
