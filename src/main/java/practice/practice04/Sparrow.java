@@ -24,7 +24,8 @@ public class Sparrow extends Animal {
 		}
 		return fly;
 	}
-
+	
+	@Override
 	public void showInfo() {
 		super.showInfo();
 		System.out.println(isCanFly(canFly));

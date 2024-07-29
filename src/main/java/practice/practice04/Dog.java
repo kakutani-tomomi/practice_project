@@ -17,7 +17,7 @@ public class Dog extends Animal {
 	public void setFurColor(String furColor) {
 		this.furColor = furColor;
 	}
-
+	@Override
 	public void showInfo() {
 		super.showInfo();
 		System.out.println("毛の色：" + furColor);
