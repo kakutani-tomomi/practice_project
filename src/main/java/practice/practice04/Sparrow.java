@@ -16,15 +16,15 @@ public class Sparrow extends Animal {
 	}
 
 	public String isCanFly(boolean canFly) {
-		String fly;
+		String flyPossibility;
 		if (canFly) {
-			fly = "飛べます";
+			flyPossibility = "飛べます";
 		} else {
-			fly = "飛べません";
+			flyPossibility = "飛べません";
 		}
-		return fly;
+		return flyPossibility;
 	}
-	
+
 	@Override
 	public void showInfo() {
 		super.showInfo();
