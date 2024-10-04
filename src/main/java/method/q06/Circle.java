@@ -7,13 +7,12 @@ public class Circle {
 		double circleArea = getCircleArea(radius);
 
 		System.out.println("半径：" + radius);
-		System.out.println("円の面積：" + ((Math.floor(circleArea * 10)) / 10));
+		System.out.println("円の面積：" + circleArea);
 	}
 
 	public static double getCircleArea(double radius) {
-		double circleArea = (radius * radius) * Math.PI;
+		double circleArea = (radius * radius) * 3.14;
 		return circleArea;
 
 	}
-
 }
